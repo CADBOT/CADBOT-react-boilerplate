@@ -9,6 +9,12 @@ var config = {
 , output: {
     path: BUILD_DIR
   , filename: 'bundle.js'
+  , publicPath: '/'
+  }
+, devServer: {
+    inline: true
+  , contentBase: BUILD_DIR
+  , port: 3333 
   }
 , module: {
     loaders: [
