@@ -11,6 +11,7 @@ var config = {
   , filename: 'bundle.js'
   , publicPath: '/'
   }
+, devtool: 'source-map'
 , devServer: {
     inline: true
   , contentBase: BUILD_DIR
